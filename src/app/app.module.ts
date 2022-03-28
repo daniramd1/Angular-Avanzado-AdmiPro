@@ -3,9 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 
 //Rutas
+import { AppRoutingModule } from './app-routing.module';
+
 
 //componentes
-import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { BreadcrumsComponent } from './shared/breadcrums/breadcrums.component';
 import { HeaderComponent } from './shared/header/header.component';
